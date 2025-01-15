@@ -68,11 +68,6 @@ python -m step.s04_llm_report_geneartion --file_name test_1
 - google-api-token (or your own LLM api token)
 - ~16GB RAM
 
-## Usage
-
-1. Install requirements from [`pyproject.toml`](pyproject.toml).
-2. Set paths and other config variables in [`janestreet/config.py`](janestreet/config.py).
-
 ### Scripts
 
 - [`s01_extract_pdf_text.py`](step/s01_extract_pdf_text.py) - Step 1. extract, preprocess and segment the pdf text
