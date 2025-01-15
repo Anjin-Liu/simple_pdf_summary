@@ -1,0 +1,5 @@
+the following text is retrieved from a pdf file,
+help me segment the text into meaningful paragraphs and seperated by 
+'-------------------------------------------------' with new lines.
+if there is any table like text, clean them up and render the table data with markdown format.
+{preprocessed_text}

@@ -1,0 +1,124 @@
+```
+Statement of comprehensive income
+For the year ended 30 June
+Last Year Previous Year
+Notes $ $
+Revenue
+Membership subscriptions 6,748,000 6,571,000
+Interest 251,000 231,000
+Rental income 185,000 244,000
+Other revenue 3A 613,000 655,000
+Total revenue 7,797,000 7,701,000
+Expenses
+Employee expenses 4A 3,167,000 3,023,000
+Capitation fees 4B 830,000 823,000
+Affiliation fees 4C 228,000 231,000
+Depreciation 4D 97,000 88,000
+Administration expenses 4E 1,649,000 1,475,000
+Legal costs 4F 296,000 62,000
+Donations 4G 77,000 120,000
+Motor vehicle expenses 4H 89,000 79,000
+Other expenses 4I 835,000 775,000
+Total expenses 7,268,000 6,676,000
+Surplus (deficit) for the year 529,000 1,025,000
+Other comprehensive income
+Gain on revaluation – investment property - 342,000
+Total comprehensive income for the year 529,000 1,367,000
+The above statement should be read in conjunction with the notes.
+
+
+Statement of financial position
+As at 30 June
+Last Year Previous Year
+Notes $ $
+ASSETS
+Current Assets
+Cash and cash equivalents 5A 3,093,000 4,955,000
+Trade and other receivables 5B 528,000 226,000
+Other current assets 5C 408,000 383,000
+Total Current Assets 4,029,000 5,564,000
+Non-Current Assets
+Land and buildings 6A 10,000,000 -
+Plant and equipment 6B 104,000 132,000
+Motor vehicles 6C 141,000 147,000
+Investment property 6D 2,170,000 2,000,000
+Total Non-Current Assets 12,415,000 2,279,000
+TOTAL ASSETS 16,444,000 7,843,000
+LIABILITIES
+Current Liabilities
+Trade and other payables 7A 337,000 244,000
+Employee provisions 7B 520,000 556,000
+Total Current Liabilities 857,000 800,000
+Non-Current Liabilities
+Borrowings 8A 8,000,000 -
+Employee provisions 7B 140,000 125,000
+Total Non-Current Liabilities 8,140,000 125,000
+TOTAL LIABILITIES 8,997,000 925,000
+NET ASSETS 7,447,000 6,918,000
+EQUITY
+Retained earnings 7,105,000 6,576,000
+Reserves 342,000 342,000
+TOTAL EQUITY 7,447,000 6,918,000
+The above statement should be read in conjunction with the notes.
+
+
+Statement of changes in equity
+For the year ended 30 June
+Asset
+Revaluation Retained
+Reserve Earnings Total
+$ $ $
+Balance as at 1 July previous year - 6,186,000 5,209,000
+Revaluation increment 342,000 - 342,000
+Profit for the year - 1,367,000 1,367,000
+Closing balance as at 342,000 6,576,000 6,918,000
+30 June previous year
+Revaluation increment - - -
+Profit for the year - 529,000 529,000
+Closing balance as at 342,000 7,105,000 7,447,000
+30 June last year
+The above statement should be read in conjunction with the notes.
+
+
+Statement of cash flows
+For the year ended 30 June
+Last Year Previous Year
+Notes $ $
+CASH FLOWS FROM OPERATING ACTIVITIES
+Cash Received
+Receipts from members 7,007,000 6,903,000
+Interest 251,000 231,000
+Rental 314,000 379,000
+Other 373,000 294,000
+Total Cash Received 7,945,000 7,807,000
+Cash Used
+Employees (2,824,000) (2,695,000)
+Suppliers (4,585,000) (4,210,000)
+Total Cash Used (7,409,000) (6,905,000)
+NET CASH FROM OPERATING ACTIVITIES 536,000 902,000
+INVESTING ACTIVITIES
+Cash Received
+Proceeds from sale of plant and equipment 9,000 56,000
+Total Cash Received 9,000 56,000
+Cash Used
+Purchase of land and buildings (10,000,000) -
+Purchase of plant and equipment (234,000) (156,000)
+Purchase of investments (173,000) -
+Total Cash Used (10,407,000) (156,000)
+NET CASH FROM INVESTING ACTIVITIES (10,398,000) (100,000)
+FINANCING ACTIVITIES
+Cash Received
+Borrowings 8,000,000 -
+Total Cash Received 8,000,000 -
+Cash Used
+Repayment of borrowings - -
+Total Cash Used
+NET CASH FROM FINANCING ACTIVITIES 8,000,000 -
+NET INCREASE/(DECREASE) IN CASH HELD (1,862,000) 802,000
+Cash and cash equivalents at the beginning of the 4,955,000 4,153,000
+reporting period
+Cash and cash equivalents at the end of the reporting 5A 3,093,000 4,955,000
+period
+The above statement should be read in conjunction with the notes.
+
+```

@@ -1,0 +1,3 @@
+the following text is retrieved from a pdf file,
+help me remove the header, footer, page number etc. if there is any
+{raw_text}
