@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-Update your LLM token in [`./credentials/llm-cred.json`](./helper/project_config.py)
+Update your LLM token in [`./credentials/llm-cred.json`](./credentials/llm-cred.json)
 
 ```
 {
@@ -34,9 +34,9 @@ ChatLLM = ChatGoogleGenerativeAI(
 )
 
 EmbeddingLLM = GoogleGenerativeAIEmbeddings(
-        model="models/embedding-001",
-        google_api_key=llm_cred.get("google-api-key"),
-    )
+    model="models/embedding-001",
+    google_api_key=llm_cred.get("google-api-key"),
+)
 ```
 
 Run the step scripts
