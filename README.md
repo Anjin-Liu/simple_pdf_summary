@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-Update your LLM token in [`./credentials/llm-cred.json`](./credentials/llm-cred.json)
+1. Update your LLM token in [`./credentials/llm-cred.json`](./credentials/llm-cred.json)
 
 ```
 {
@@ -22,7 +22,7 @@ Update your LLM token in [`./credentials/llm-cred.json`](./credentials/llm-cred.
 }
 ```
 
-Config your own ChatLLM and EmbeddingLLM in the [`./helper/project_config.py`](./helper/project_config.py)
+2. Config your own ChatLLM and EmbeddingLLM in the [`./helper/project_config.py`](./helper/project_config.py)
 
 ```
 ChatLLM = ChatGoogleGenerativeAI(
@@ -35,40 +35,40 @@ ChatLLM = ChatGoogleGenerativeAI(
 
 EmbeddingLLM = GoogleGenerativeAIEmbeddings(
     model="models/embedding-001",
-    google_api_key=llm_cred.get("google-api-key"),
+    google_api_key=llm_cred["google-api-key"],
 )
 ```
 
-Run the step scripts
+3. Run the step scripts
 
 ```
 # add current folder into python path
-export PYTHONPATH="${PYTHONPATH}:$(pwd)"
+$ export PYTHONPATH="${PYTHONPATH}:$(pwd)"
 
 # step 1 - extract, preprocess and segmentation
 # the raw data will be save under ./data/02_extracted_raw_data/{file_name}.txt
 # the preprocessed data will be saved under ./data/03_preprocessed_data/{file_name}.txt
 # the segmented text will be saved under ./data/03_preprocessed_data/{file_name}_seg.txt
-python -m step.s01_extract_pdf_text --file_name test_1
+$ python -m step.s01_extract_pdf_text --file_name test_1
 
 # step 2 - data validation (WIP)
 
 # step 3 - indexing the segmented text and keep it into a local vector store
 # the vector store will be kept under ./data/04_indexed_vector_data/{file_name}.chroma_db
-python -m step.s03_llm_chunk_and_indexing --file_name test_1
+$ python -m step.s03_llm_chunk_and_indexing --file_name test_1
 
 # step 4 - generate summary report
 # the summary report will be kept under ./data/05_report_data/{file_name}_report.md
-python -m step.s04_llm_report_geneartion --file_name test_1
+$ python -m step.s04_llm_report_geneartion --file_name test_1
 ```
 
 ## Requirements
 
-- internet access
+- internet connection
 - google-api-token (or your own LLM api token)
 - ~16GB RAM
 
-### Scripts
+### Step Scripts
 
 - [`s01_extract_pdf_text.py`](step/s01_extract_pdf_text.py) - Step 1. extract, preprocess and segment the pdf text
 - [`s02_preprocessed_data_validation.py`](step/s02_preprocessed_data_validation.py) - Step 2. (WIP) validate the preprocess text
